@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:minHeight="@dimen/list_item_height">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/ic_launcher"
+        android:background="@color/primary_color"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:orientation="vertical"
+        android:id="@+id/text_container"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/imageView"
+        android:paddingLeft="16dp">
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/trackTextView"
+            style="@style/viewsStyle"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            tools:text="Track Name" />
+
+<!--        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/primary_dark_color">
+
+        </View>-->
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/artistTextView"
+            style="@style/viewsStyle"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_below="@id/trackTextView"
+            android:textStyle="italic"
+            tools:text="Track Artist" />
+
+        <ImageView
+            android:layout_width="@dimen/icons"
+            android:layout_height="@dimen/icons"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:src="@drawable/ic_play_circle_outline_black_48dp"
+            android:layout_marginEnd="24dp"
+            android:id="@+id/imageView2"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

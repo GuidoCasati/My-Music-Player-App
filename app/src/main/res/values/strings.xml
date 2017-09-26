@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <!-- names of the views-->
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="songs">Songs</string>
+    <string name="genres">Genres</string>
+    <string name="NowPlaying">Now Playing</string>
+    <!--text for the info boxes-->
+    <string name="search">Search for songs, artists, albums</string>
+    <string name="info_artists">This activity is conceived to display a list of letters in alphabetical order.\nUnder each letter, the artists starting with that letter are displayed. </string>
+    <string name="info_albums">This activity is conceived to display a list of letters in alphabetical order.\nUnder each letter, the albums starting with that letter are displayed. </string>
+    <string name="info_genres">This activity is conceived to display a list of genres in alphabetical order.\nUnder each section, the artists belonging to that genre are displayed. </string>
+    <string name="info_songs">This activity is conceived to display a list of songs grouped by the first letter, listed in alphabetical order.</string>
+    <string name="info_nowPlaying">This activity is conceived to display the currently played song and related info.</string>
+</resources>

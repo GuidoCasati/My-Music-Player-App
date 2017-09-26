@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/now_playing"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="musicplayerlayouts.nowPlaying">
+
+<TextView
+    android:id="@+id/nowplay_title"
+    style="@style/viewsStyle"
+    android:background="@color/Light_background"
+    android:text="@string/NowPlaying"/>
+
+<TextView
+    style="@style/infoBox"
+    android:background="@color/Light_background"
+    android:text="@string/info_nowPlaying"
+    android:layout_height="wrap_content"/>
+
+</LinearLayout>
+

@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+    </style>
+
+    <!-- Style for the views -->
+    <style name="viewsStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/half_list_item</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+    <!-- Style for the info boxes -->
+
+    <style name="infoBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <!-- Style for the layout of items -->
+    <style name="listLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+</resources>

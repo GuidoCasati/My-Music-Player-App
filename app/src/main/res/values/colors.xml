@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#FBC02D</color>
+    <color name="primary_dark_color">#F9A825</color>
+    <color name="tan_background">#FDD835</color>
+    <color name="Light_background">#FFF9C4</color>
+    <color name="category_songs">#FFEB3B</color>
+    <color name="category_genres">#FFEE58</color>
+    <color name="category_albums">#FFF176</color>
+    <color name="category_Artists">#FFF59D</color>
+</resources>

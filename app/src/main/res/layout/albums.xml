@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_albums"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="musicplayerlayouts.albums">
+
+    <TextView
+        android:id="@+id/albums"
+        style="@style/viewsStyle"
+        android:background="@color/category_albums"
+        android:text="@string/albums" />
+
+
+    <TextView
+        style="@style/infoBox"
+        android:background="@color/Light_background"
+        android:text="@string/info_albums" />
+
+</LinearLayout>

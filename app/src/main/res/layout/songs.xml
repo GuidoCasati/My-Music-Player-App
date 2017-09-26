@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_songs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="musicplayerlayouts.songs"
+    >
+    <!--
+
+        <TextView
+            android:id="@+id/songs"
+            style="@style/viewsStyle"
+            android:text=ing/songs" />
+
+        <TextView
+            style="@style/infoBox"
+            android:background="@color/Light_background"
+            android:text="@string/info_songs" />
+    -->
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/SongsList"
+        />
+
+</LinearLayout>
+
